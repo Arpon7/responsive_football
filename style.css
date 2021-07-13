@@ -10,7 +10,7 @@ body{
 
 /* header section */
 .nav{
-
+  
   background-color: rgba(0, 0, 255, 0.774);
   display: flex;
   justify-content: space-between;
@@ -32,7 +32,7 @@ body{
 /* banner  section  */
 
 .banner{
-
+  
   display: flex;
   justify-content: space-between; 
   background-color:#2D25A0;
@@ -71,3 +71,43 @@ background-color: #E02C6D;
   margin: 153px 140px 86px 102px;
   
 }
+
+.player-card{
+        background-color: blueviolet;
+width: 1440px;
+margin-left: 90px;
+margin-top: 43px;
+
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-column-gap: 30px;
+
+}
+
+.player-box{
+width: 330px;
+height: 474px;
+margin-top: 27px;
+border:1px solid #FFFFFF;
+padding: 15px;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player-box img{
+  width: 320px;
+  height: 250px;
+  padding: 5px;
+}
+footer{
+  background-color:rgba(165, 194, 223, 0.37) ;
+  margin-top: 144px;
+  text-align: center;
+  
+}
+.footer-image img{
+width:483.87px;
+height:213px;
+}
+
+
+
