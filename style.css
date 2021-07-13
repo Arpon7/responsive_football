@@ -111,3 +111,77 @@ height:213px;
 
 
 
+/* tablet devices */
+@media only screen and (max-width:992px){
+  .nav{
+    display: none;
+  }
+  .banner{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+  
+  }
+  .player-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0px;
+    width: 100%;
+  }
+    
+}
+
+/* mobile devices */
+@media only screen and (max-width:688px) 
+{
+  .nav{
+    display: none;
+  }
+  .banner{
+   display: flex;
+   flex-direction: column;
+   /* flex-wrap: wrap; */
+   width: 600px;
+  
+  }
+
+    .banner  h1{
+  width: 278px;
+  height: 138px;
+  margin-left: 0px;
+  }
+
+  .banner button{
+  width: 168px;
+  height: 44px;
+  padding:
+  10px, 24px, 10px, 24px;
+  position: relative;
+  right: 150px;
+  top: 200px
+  }
+
+
+  .banner img{
+    width: 300px;
+    height: 259.17px;
+    position: relative;
+    top: 100px;
+  }
+  .player-card{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 0px;
+    width: 600px;
+  }
+
+  footer{
+    width: 400px;
+  }
+  .footer-image img{
+    width: 275px;
+  }
+
+}
+
+
