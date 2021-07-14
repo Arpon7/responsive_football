@@ -5,12 +5,15 @@
 body{
   font-family: 'Poppins', sans-serif;
   background-color: #FFFFFF;
+  margin: 0px 0px;
+  width: 1440px;
 }
 
 
 /* header section */
 .nav{
-  
+  width: 1440px;
+  /* margin-left: 90px; */
   background-color: rgba(0, 0, 255, 0.774);
   display: flex;
   justify-content: space-between;
@@ -29,10 +32,11 @@ body{
 #logout{
   background-color: #E02C6D;
 }
-/* banner  section  */
 
+/* banner  section  */
 .banner{
-  
+  width: 1440px;
+  /* margin-left: 90px; */
   display: flex;
   justify-content: space-between; 
   background-color:#2D25A0;
@@ -72,10 +76,15 @@ background-color: #E02C6D;
   
 }
 
+
+/* player section  */
 .player-card{
         background-color: blueviolet;
-/* width: 1440px; */
-/* margin-left: 100px; */
+width: 1050px;
+padding-top: 40px;
+padding-bottom: 150px;
+padding-left: 180px;
+padding-right: 210px;
 margin-top: 43px;
 
 display: grid;
@@ -98,9 +107,13 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   height: 250px;
   padding: 5px;
 }
+
+/* footer section  */
 footer{
   background-color:rgba(165, 194, 223, 0.37) ;
-  margin-top: 144px;
+  width: 1440px;
+  margin-top: 14px;
+  /* margin-left: 90px; */
   text-align: center;
   
 }
@@ -111,37 +124,55 @@ height:213px;
 
 
 
-/* tablet devices */
+/*-------------------
+ tablet devices 
+ ------------------*/
 @media only screen and (max-width:992px){
-  .nav{
+  body{
+    width: 768px;
+  }
+    .nav{
     display: none;
   }
   .banner{
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
+   width: 768px;
   
   }
   .player-card{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin: 0px;
-    width: 100%;
+    width: 768px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  footer{
+    width: 768px;
   }
     
 }
 
-/* mobile devices */
+/* ----------------------
+    mobile devices
+    ------------------- */
 @media only screen and (max-width:688px) 
 {
+  body{
+    margin-left:25px;
+    margin-right:25px;
+    width: 310px;
+  }
   .nav{
     display: none;
   }
   .banner{
    display: flex;
    flex-direction: column;
-   /* flex-wrap: wrap; */
-   width: 600px;
+   width: 360px;
   
   }
 
@@ -161,7 +192,9 @@ height:213px;
   top: 200px
   }
 
-
+.banner-image{
+  width: 360px;
+}
   .banner img{
     width: 300px;
     height: 259.17px;
@@ -172,11 +205,13 @@ height:213px;
     display: grid;
     grid-template-columns: repeat(1,1fr);
     margin: 0px;
-    width: 600px;
+    width: 360px;
+    padding-left: 0px;
+    padding-right:0px; 
   }
 
   footer{
-    width: 400px;
+    width: 360px;
   }
   .footer-image img{
     width: 275px;
