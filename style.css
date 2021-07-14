@@ -198,7 +198,7 @@ height:213px;
   body{
     margin-left:25px;
     margin-right:25px;
-    width: 310px;
+    width: 350px;
   }
   .nav{
     display: none;
@@ -228,10 +228,14 @@ height:213px;
 
 .banner-image{
   width: 360px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
   .banner img{
     width: 300px;
     height: 259.17px;
+    margin-left: 0px;
+    margin-right: 0px;
     position: relative;
     top: 100px;
   }
@@ -260,6 +264,7 @@ height:213px;
   
   .blog-image img{
     height: 427px;
+    width: 250px;
     border-radius: 50%;
     padding-right: 50px;
   
